@@ -1,0 +1,136 @@
+<html>
+<html>
+    <head>
+        <title>Enlaces en html</title>
+         <link href="style_page.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+         <header>
+            <h1>FORMULARIOS</h1>
+              </header>
+        <nav>
+        <ul>
+                <li><a href="index.html">Formatos</a></li>
+                <li><a href="listcss.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audios.html">Audio</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+        <section>
+                <h2>Práctica formulario 1</h2>
+                <p>Práctica para creación de una pagína donde pueda vender mercancia oficial de Taylor Swift en Puebla</p>
+            <form action="../UI/listas.html"id="form1" name="form1" method="get">
+            <label form="textfield">USUARIO:</label>
+            <input type="text" size="10">
+            <label for="password">CONTRASEÑA</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" name="submit" id="submit" value="Enviar">
+            
+            </form>
+    </section>
+        <section>
+                <h2>Práctica formulario 2</h2>
+                <p>La relación entre la música y la memoria es poderosa. Evoca emociones intensas que luego traen recuerdos. Cuando se escucha una canción de hace años, se suele sentir que se viaja de vuelta a ese momento y reaparecen imágenes y sentimientos. La relación entre la música y la memoria es poderosa. Evoca emociones intensas que luego traen recuerdos. Cuando se escucha una canción de hace años, se suele sentir que se viaja de vuelta a ese momento</p>
+		  <form name="form2" method="get"  id="form2">
+                  <label for="textfield">NOMBRE:</label>
+                  <input type="text" name="textfield" id="textfield">
+                  <label for="textfield2">APELLIDOS:</label>
+                  <input type="text" name="textfield2" id="textfield2">
+				<label for="EDAD">EDAD</label>
+				<input name="EDAD" type="number" id="edad" max="100" min="18">
+			<label for="albums">ELIGE UN ALBUM</label>
+			<select id="albums" name="albums">
+			<option value="Selecciona">Selecciona</option>
+			<option value="Folklore">Folklore</option>
+			<option value="Evermore">Evermore</option>
+			<option value="Midnights">Midnights</option>
+			<option value="TTPD">TTPD</option>
+			</select>
+				
+			<label>FORMATO:&nbsp;</label>
+<p>
+<label>
+<input type="radio" name="FORMATO" value="VINYL" id="Vinyl_0">
+VINYL</label>
+<label>
+<input type="radio" name="FORMATO" value="CD" id="Cd_1">
+CD</label >
+<br>
+</p>
+<label>GENERO MUSICAL QUE PREFIERES:&nbsp;</label> <p>
+<label>
+<input type="checkbox" name="musica" value="pop" id="musica_0">
+POP</label >
+<label>
+<input type="checkbox" name="musica" value="rock" id="musica_1">
+ROCK</label >
+<label>
+JAZZ</label >
+<input type="checkbox" name="musica" value="jazz" id="musica_2">
+<label>
+<input type="checkbox"
+name="musica" value="alternativa" id="musica_3">
+ALTERNATIVA</label>
+<label>
+<input type="checkbox" name="musica" value="clasica" id="musica_4">
+CLASICA</label><<br>
+					 </p>
+<input type="submit" name="submit2" id="submit2" value="Enviar">
+			</form>
+    </section>
+        <section>
+                <h2>Prática final</h2>
+    <p>Adquiere tu mercancia oficial de Taylor Swift</p>
+	<form name="form2" method="get"  id="form2">
+    <label for="textfield">Nombre completo:</label>
+    <input type="text" name="textfield" id="textfield">
+    <label for="textfield2">Email:</label>
+    <input type="text" name="textfield2" id="textfield2">
+	<label for="telefono">Número de teléfono para el envío:</label><br>
+    <input type="tel" id="telefono" name="telefono" placeholder="+52"><br><br>
+	
+
+		<label for="cantidad_productos">¿Cuántos productos deseas comprar?</label><br>
+        <input type="number" id="cantidad_productos" name="cantidad_productos" min="1" max="50"><br><br>
+		<label for="Producto">¿Qué producto deseas comprar?</label>
+		<select id="Producto" name="Producto">
+		<option value="Selecciona">Selecciona</option>
+		<option value="Playera">Playera</option>
+		<option value="Sudadera">Susadera</option>
+		<option value="Album">Album</option>
+	 	<option value="Poster">Poster</option></select>
+			
+			 
+		
+			<label for="color_favorito">Elige tu color favorito para la mercancía:</label><br>
+        <input type="color" id="color_favorito" name="color_favorito" value="#ff0000"><br><br>
+		<label for="fecha_entrega">Fecha preferida para la entrega:</label><br>
+        <input type="date" id="fecha_entrega" name="fecha_entrega"><br><br>
+		<label for="hora_entrega">Hora preferida para la entrega:</label><br>
+        <input type="time" id="hora_entrega" name="hora_entrega"><br><br>
+		
+		<label for="foto_concierto">Sube una foto de tu comprobante de pago:</label><br>
+        <input type="file" id="foto_concierto" name="foto_concierto"><br>
+		 <label for="comentarios">¿Algún comentario adicional sobre tu pedido?</label><br>
+        <textarea name="comentarios" cols="50" rows="4" wrap="soft" id="comentarios" placeholder="Escribe tus comentarios aquí"></textarea><br><br>
+		 <label for="nivel_fan">¿Qué tan fan eres de nuestros productos? (0=Poco, 100=Súper fan)</label><br>
+        <input type="range" id="nivel_fan" name="nivel_fan" min="0" max="100"><br><br>
+
+        <input type="submit" value="Enviar pedido">
+		</form>
+		
+			
+			
+            </section>
+        </main>
+        <footer>
+           <h5>Elaborado por Diana Valencia</h5>
+        </footer>
+    </body>
+            
+</html>

@@ -1,0 +1,351 @@
+  <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header,nav,main,footer{
+                width: 1300px;
+                color: #fbffcc;
+                margin-left: auto;
+                margin-right: auto;  
+                padding: 45px;
+            }
+header{
+    background-color: #fbffcc;
+    color: #BF3B5E;
+}
+ nav{
+                height: 50p;
+                background-color: #BF3B5E;
+            }
+            ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            main{
+                height:auto;
+                background-color: #F2DAD8;
+            }
+            main nav{
+                 width: 600px
+            }
+            footer{
+                height: 50px;
+                background-color: #BF3B5E;
+            }
+           section{
+                width: 1000px;
+               height:auto;
+                background-color: #BF3B5E;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 45px;
+            }
+
+   
+           
+     
+    p{margin-bottom: 15px; 
+    } 
+
+    
+} 
+Page 1
+    width: 180px; 
+    height: auto; 
+    float: left; 
+    padding-right: 20px; 
+#taylors_img{
+    width: 400px;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+#taylorswift_img{
+    width: 290px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+#micro_img{
+    display: block;
+    margin-left: auto;
+    margin-right: 0px
+}
+#baile_img{
+    width: 30%;
+    height: auto;
+}
+img{
+    display: block;
+    height: auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+            h2{
+                margin-bottom: 20px;
+            }
+            h1,h5{
+                text-align: center;
+                padding: 30px;
+            }
+            p{ 
+            margin-bottom: 30px
+            }
+            p a:visited{
+                color:azure;
+            }
+            p a:link{
+                color: #FBFFCD;
+                font font-weight: bolder;
+            }
+            p a:active{
+                  color: orange;
+            }
+            ul li{
+                background-color: #FBFFCD;
+                color: #BF3B5E;
+                padding: 10px;
+                border-radius: 10px;
+                width: 75px; 
+                text-decoration: none;
+            }
+            ul li a{
+                text-decoration: none;
+                color: #BF3B5E
+            }
+            ul a:link, ul a:visited{
+                color: #BF3B5E;
+                font-weight: bolder;
+            }
+            ul a:hover{
+                color:   #FBFFCD;
+                font-weight: bolder;
+            }
+            /*nav ul li a:link, nav ul li a:visited{
+                color: #508c9b;
+                font-weight:bold;
+            }
+           nav ul li a:hover{
+                color: #201E43;
+            }*/ 
+          nav li:hover, nav li a:hover{
+                background-color: #8C182D;
+                color: #FBFFCD;
+             
+            }
+#table{
+   color: #fbffcd;
+    margin: 0 auto;
+    padding: 10 px;
+    border: 1px solid #fbffcd;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.table1{
+   width: 900px;
+    border-collapse: collapse;
+    
+}
+.table1 th{
+   background-color:darksalmon;
+    height: 50 px;
+    
+}
+
+.table1 tbody{
+   background-color: #fbffcd;
+    color: #000000;
+    
+}
+.table1 td{
+  padding: 5px;
+    text-align: center;
+    height: 40px;
+    margin: 20 px;
+}
+.table1 td, #table th{
+  border-width: 5px;
+    border-style: solid;
+    border-color: darksalmon;
+}
+#tabla1{
+    width: 1100px;
+    border-collapse: collapse;
+    
+    
+}
+#table2{
+     margin: 0 auto;
+   width: 800px;
+    border: 6px solid #fbffcd;
+    border-collapse: collapse;
+    
+    
+}
+#table2 thead tr th{
+   background-color: tan;
+    padding: 20 px;
+    color:#fbffcd;
+    background-color: darksalmon;
+    
+}
+#table2 td{
+   height: 40px;
+    padding: 10px;
+    color:#fbffcd;
+    
+}
+#table2 tbody tr:nth-child(even){
+  background-color: #001f36;
+       color:#fbffcd;
+    
+}
+#table2 tbody tr:nth-child(odd){
+  background-color:tan;
+    
+}
+#table3{
+    width: 100%
+        border-collapse: collapse;
+      margin: 0 auto;
+        
+}
+#table3 tr th,#table3 tr td{
+    border: 2px solid #fbffcd ;
+    padding: 20 px;
+     margin: 0 auto;
+    
+}
+#table3 thead tr th{
+    background-color: darksalmon;
+    color:#fbffcd;
+    
+}
+#table3 tbody tr{
+    background-color: azure;
+}
+#table3 tbody tr:hover{
+    background-color: darksalmon;
+    color: #fbffcd;
+}
+
+#form1 input[type-text], #form1 input, #form2 input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #FBFFCD;
+  color: #8C182D;
+	font-weight: bolder;
+	-webkit-box-sizing: border-box;
+	-mox-box-sizing:  border-box;
+	box-sizing: border-box;
+}
+#form1, #form2 , #form3{
+	width: 50%;
+	padding: 30PX;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #79AE92;
+	
+}
+
+#nombre {
+}
+body label {
+    width: 50%;
+}
+.Producto {
+    width: 100%;
+}
+
+
+
+
+
+label{
+    color: #FFFFFF;
+    font-weight: bolder;
+    width: 10px;
+    font-size: x-large;
+}
+#form1 input[type-submit] {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 30%;
+	height: 30px;
+	background-color:#8C182D;
+	padding: 0;
+	color: #FBFFCD;
+	}
+#form2 p label {
+    width: 80px;
+    height: 100px;
+}
+#form2 label {
+    width: 100 px;
+    font-size: medium;
+}
+
+#form2 p label #Vinyl_0 {
+    width: 50px;
+}
+p label #Cd_1 {
+    width: 50px;
+	
+
+
+}
+#filtro1{ 
+    filter:brightness(180%);  
+    margin-top: 40px; 
+     
+} 
+#filtro2{ 
+    filter: contrast(50%); 
+    margin-top: 40px; 
+} 
+#filtro3{ 
+    filter: grayscale(100%); 
+        margin-top: 40px; 
+} 
+#filtro4{ 
+    filter: sepia(100%); 
+        margin-top: 40px; 
+} 
+#filtro5{ 
+    filter: saturate(180%); 
+        margin-top: 40px; 
+} 
+#filtro6{ 
+    filter:opacity(0.4); 
+        margin-top: 40px; 
+} 
+#filtro7{ 
+    filter:invert(100%); 
+        margin-top: 40px; 
+} 
+#filtro8{ 
+    filter: blur(4px); 
+    margin-top: 40px; 
+    
+}
+ 
+ 
