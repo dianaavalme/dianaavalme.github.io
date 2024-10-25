@@ -1,0 +1,230 @@
+  <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header,nav,main,footer{
+                width: 1300px;
+                color: #fbffcc;
+                margin-left: auto;
+                margin-right: auto;  
+                padding: 45px;
+            }
+header{
+    background-color: #fbffcc;
+    color: #BF3B5E;
+}
+ nav{
+                height: 50p;
+                background-color: #BF3B5E;
+            }
+#form1 {
+}
+            ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            main{
+                height:auto;
+                background-color: #F2DAD8;
+            }
+            main nav{
+                 width: 600px
+            }
+            footer{
+                height: 50px;
+                background-color: #BF3B5E;
+            }
+           section{
+    width: 900px;
+    height: auto;
+    background-color: #BF3B5E;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 45px;
+            }
+#taylors_img{
+    width: 400px;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+p{
+    margin-bottom: 15px;
+}
+#taylorswift_img{
+    width: 290px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+#micro_img{
+    display: block;
+    margin-left: auto;
+    margin-right: 0px
+}
+#baile_img{
+    width: 30%;
+    height: auto;
+}
+img{
+    display: block;
+    height: auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+            h2{
+                margin-bottom: 20px;
+            }
+            h1,h5{
+                text-align: center;
+                padding: 30px;
+            }
+            p{ 
+            margin-bottom: 30px
+            }
+            p a:visited{
+                color:azure;
+            }
+            p a:link{
+                color: #FBFFCD;
+                font font-weight: bolder;
+            }
+            p a:active{
+                  color: orange;
+            }
+            ul li{
+                background-color: #FBFFCD;
+                color: #BF3B5E;
+                padding: 10px;
+                border-radius: 10px;
+                width: 75px; 
+                text-decoration: none;
+            }
+            ul li a{
+                text-decoration: none;
+                color: #BF3B5E
+            }
+            ul a:link, ul a:visited{
+                color: #BF3B5E;
+                font-weight: bolder;
+            }
+            ul a:hover{
+                color:   #FBFFCD;
+                font-weight: bolder;
+            }
+            /*nav ul li a:link, nav ul li a:visited{
+                color: #508c9b;
+                font-weight:bold;
+            }
+           nav ul li a:hover{
+                color: #201E43;
+            }*/ 
+          nav li:hover, nav li a:hover{
+                background-color: #8C182D;
+                color: #FBFFCD;
+             
+            }
+#table{
+   color: #fbffcd;
+    margin: 0 auto;
+    padding: 10 px;
+    border: 1px solid #fbffcd;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.table1{
+   width: 900px;
+    border-collapse: collapse;
+    
+}
+.table1 th{
+   background-color:darksalmon;
+    height: 50 px;
+    
+}
+
+.table1 tbody{
+   background-color: #fbffcd;
+    color: #000000;
+    
+}
+.table1 td{
+  padding: 5px;
+    text-align: center;
+    height: 40px;
+    margin: 20 px;
+}
+.table1 td, #table th{
+  border-width: 5px;
+    border-style: solid;
+    border-color: darksalmon;
+}
+#tabla1{
+    width: 1100px;
+    border-collapse: collapse;
+    
+    
+}
+#table2{
+     margin: 0 auto;
+   width: 800px;
+    border: 6px solid #fbffcd;
+    border-collapse: collapse;
+    
+    
+}
+#table2 thead tr th{
+   background-color: tan;
+    padding: 20 px;
+    color:#fbffcd;
+    background-color: darksalmon
+    
+}
+#table2 td{
+   height: 40px;
+    padding: 10px;
+    color:#fbffcd;
+    
+}
+#table2 tbody tr:nth-child(even){
+  background-color: #001f36
+       color:#fbffcd;
+    
+}
+#table2 tbody tr:nth-child(odd){
+  background-color:tan;
+    
+}
+#table3{
+    width: 100%
+        border-collapse: collapse;
+      margin: 0 auto;
+        
+}
+#table3 tr th,#table3 tr td{
+    border: 2px solid #fbffcd ;
+    padding: 20 px;
+     margin: 0 auto;
+    
+}
+#table3 thead tr th{
+    background-color: darksalmon;
+    color:#fbffcd;
+    
+}
+#table3 tbody tr{
+    background-color: azure;
+}
+#table3 tbody tr:hover{
+    background-color: darksalmon;
+    color: #fbffcd;
+}
